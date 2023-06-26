@@ -18,7 +18,7 @@ class ClasseSeeder extends Seeder
             ["nom_classe" => "6iem", "niveau_id" => 2],["nom_classe" => "5iem", "niveau_id" => 2],["nom_classe" => "4iem", "niveau_id" => 2],["nom_classe" => "3iem", "niveau_id" => 2],
             ["nom_classe" => "Seconde", "niveau_id" => 3],["nom_classe" => "Première", "niveau_id" => 3],["nom_classe" => "Terminal", "niveau_id" => 3]
         ];
-
+        
         Classe::insert($classe);
     }
 }

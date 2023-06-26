@@ -13,4 +13,10 @@ class Niveau extends Model
     {
         return $this->hasMany(Classe::class);
     }
+
+    protected $hidden = [
+        'created_at',
+        'updated_at',
+        'id'
+    ];
 }
